@@ -4,25 +4,3 @@ compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2025-03-28"
 pages_build_output_dir = "./build/client"
 send_metrics = true
-account_id = "e5d8e3e9586abd85a9d80d8c1a797ef6"
-compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2025-03-28"
-pages_build_output_dir = "./build/client"
-send_metrics = true
-
-# R2 Storage configuration
-[[r2_buckets]]
-binding = "BOLT_STORAGE"
-bucket_name = "bolt-storage"
-preview_bucket_name = "bolt-storage-dev"
-
-# D1 Database configuration
-[[d1_databases]]
-binding = "BOLT_DB"
-database_name = "bolt-database"
-database_id = "f304e7d8-5c28-48d6-b2b7-28cf0e20d120" # D1 Database ID
-
-# KV Namespace configuration
-[[kv_namespaces]]
-binding = "BOLT_CACHE"
-id = "ed40a6e7fedd4e4db3bc9d8de3ac42b5" # KV namespace ID
