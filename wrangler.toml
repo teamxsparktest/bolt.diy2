@@ -2,5 +2,6 @@
 name = "bolt-diy2"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2025-03-28"
-pages_build_output_dir = "./build/client"Add commentMore actions
+pages_build_output_dir = "./build/client"
+Add commentMore actions
 send_metrics = true
