@@ -26,4 +26,3 @@ database_id = "f304e7d8-5c28-48d6-b2b7-28cf0e20d120" # D1 Database ID
 [[kv_namespaces]]
 binding = "BOLT_CACHE"
 id = "ed40a6e7fedd4e4db3bc9d8de3ac42b5" # KV namespace ID
-preview_id = "38e84cbfb8d34d6d9ebab8b591ac67cf" # Preview KV namespace ID
